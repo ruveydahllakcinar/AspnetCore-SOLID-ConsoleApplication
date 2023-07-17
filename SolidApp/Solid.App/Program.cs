@@ -10,10 +10,10 @@
 
 
 
-using Solid.App.DIP_GoodCode;
+//using Solid.App.DIP_GoodCode;
 
-Console.WriteLine("Hello, World!");
+//Console.WriteLine("Hello, World!");
 
-var ProductService = new ProductService(new ProductRepositoryFromOracle());
+//var ProductService = new ProductService(new ProductRepositoryFromOracle());
 
-ProductService.GetAll().ForEach(x => Console.WriteLine(x));
+//ProductService.GetAll().ForEach(x => Console.WriteLine(x));
