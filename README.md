@@ -32,11 +32,11 @@
 * High level modules should not depend on low level modules; both should depend an abstractions.
 
 * High level modules should not depend on low level modules. Both should depend on abstractions. For example, in MVC, a controller is a high level module. There should be a direct connection between the controller and low-level operations such as database access.
-![DIP](DIP.png)
+![DIP](controller.png)
 
 * Instead there should be <<interface>> between controller and repository
 
-  ![automapper](DIPinterface.png)
+    ![DIP](dipinterface.png)
 
 ** Before the dip, the flow moves from bottom to top, while with DIP it moves from top to bottom.
 
