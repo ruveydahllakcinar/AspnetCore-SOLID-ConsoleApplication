@@ -27,17 +27,16 @@
 
 * Many client-specific interfaces are better than one general purpose interface. An interface should contain only the methods that are needed and should not contain unnecessary or unused methods.
 
-## Depenedncy Inversion Principles
+## Dependency Inversion Principles
 
 * High level modules should not depend on low level modules; both should depend an abstractions.
 
 * High level modules should not depend on low level modules. Both should depend on abstractions. For example, in MVC, a controller is a high level module. There should be a direct connection between the controller and low-level operations such as database access.
-
-
-
-
+![DIP](DIP.png)
 
 * Instead there should be <<interface>> between controller and repository
+
+  ![automapper](DIPinterface.png)
 
 ** Before the dip, the flow moves from bottom to top, while with DIP it moves from top to bottom.
 
