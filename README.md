@@ -1,6 +1,6 @@
 
 # SOLID Principles
-
+### SOLID, five basic design principles developed to make software design more readable, easier to maintain and expandable are called SOLID.
 ## Single Responsibilty Principles:
 
 * "There should never be more than are reasons for a class to change"
